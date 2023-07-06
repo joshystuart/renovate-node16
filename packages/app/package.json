@@ -1,0 +1,25 @@
+{
+  "name": "@renovate-node16/app",
+  "license": "UNLICENSED",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "lint": "tsc --noEmit",
+    "prebuild": "rm -rf lib/",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "9.0.0"
+  }
+}
